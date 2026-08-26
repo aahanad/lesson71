@@ -2,12 +2,31 @@ $primary-color:hsl(248, 86%, 73%);
 $secondary-color:hsl(208, 86%, 73%);
 $background-color:#a6f5d5;
 $text-color:#f797e7;
+$menu-color:#c0f1ff;
 body{
     font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
   background:$background-color;
   color:$text-color;
-  
-
+}
+.art{
+  height:250px;
+  width:240px;
+}
+nav{
+  background:$menu-color;
+  ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    li{
+    margin-left: 20px;  
+    font-size:35px !important;
+    a{
+      text-decoration: none;
+      color:#f797e7;
+    }
+    };
+  }
 }
