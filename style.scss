@@ -12,7 +12,9 @@ body{
 }
 .art{
   height:250px;
-  width:240px;
+  width:95%;
+  object-fit: cover;
+  margin-top:7px;
 }
 nav{
   background:$menu-color;
@@ -30,3 +32,14 @@ nav{
     };
   }
 }
+
+.item{
+  float:left;
+  width:300px;
+  margin:0 20px 20px 0;
+  border:2px solid #f9a8dc;
+  border-radius: 10px;
+  text-align:center;
+  
+}
+
