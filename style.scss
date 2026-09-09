@@ -15,6 +15,11 @@ body{
   width:95%;
   object-fit: cover;
   margin-top:7px;
+ 
+}
+.item{ position:relative;}
+.art:hover{
+  animation:wiggle 1s ease-in-out infinite alternate
 }
 nav{
   background:$menu-color;
@@ -41,5 +46,26 @@ nav{
   border-radius: 10px;
   text-align:center;
   
+}
+.sparkle{
+  position:absolute;
+  opacity:0;
+  z-index:5;
+}
+.sparkle-1{
+  top:2px;
+  left:5px;
+}
+.item:hover .sparkle{
+opacity:1;
+animation:shake 0.8s ease-in-out infinite alternate;
+}
+@keyframes wiggle{
+  from{transform:translateY(8px)translateX(8px)scale(0.7)rotate(-20deg)}
+  to{transform:translateY(-8px)translateX(-8px)scale(1.2)rotate(20deg)}
+}
+@keyframes shake{
+  from{transform:translateY(2px)translateX(2px)scale(0.7)rotate(-20deg)}
+  to{transform:translateY(-2px)translateX(-2px)scale(1.2)rotate(20deg)}
 }
 
