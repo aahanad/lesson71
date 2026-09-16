@@ -1,71 +1,92 @@
-$primary-color:hsl(248, 86%, 73%);
-$secondary-color:hsl(208, 86%, 73%);
-$background-color:#a6f5d5;
-$text-color:#f797e7;
-$menu-color:#c0f1ff;
-body{
-    font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  background:$background-color;
-  color:$text-color;
-}
-.art{
-  height:250px;
-  width:95%;
-  object-fit: cover;
-  margin-top:7px;
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee&family=Butterfly+Kids&family=Geom:ital,wght@0,300..900;1,300..900&family=Momo+Signature&family=Pacifico&family=Satisfy&family=Twinkle+Star&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li>About</li>
+</ul></nav>
+<header class="home"><h1>My art gallery!</h1>
+<p>In this art gallery you can find all sorts of unique things! My favorites include the pink star bag,cat magnets, and a scrapbook all about delicious food!Each one of these amazing art peices are handmade with alot of love and most of them took like forever!the diamond art took me 2 months!s</p>
+</header><div class="gallery">
+<div class="item">
+    <span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span>
+    <img class="art"src="iloveimg-converted/Attachment-1.jpeg"><h2>pink star bag!🌟</h2><p>a brown crochet bag with cute pink pops of color!</p></div>
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art" src="iloveimg-converted/Attachment-1 (1).jpeg"><h2>pickle army!!hehe🥒</h2><p>so may cute pickles!A needle felted pickle, two clay pickles, and the og pickle!</p></div>
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art"src="iloveimg-converted/Attachment-1 (2).jpeg"><h2>summer scrapbook!!🚤</h2><p>all the thing i did this summer! a picnic, beachday,movie night, and my birthday!!!</p></div>
+
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art" src="iloveimg-converted/IMG_5732.jpg"><h2>strawberry jar🍓😆</h2><p>a cutesy place to store all of your strawberries!yum!</p></div>
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art" src="iloveimg-converted/IMG_6411.jpg"><h2>crochet miffy!🐇</h2><p>a mini miffy and it's crochet!</p></div>
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art" src="iloveimg-converted/IMG_6424.jpg"><h2>kitty kat magnets!!🐈‍⬛</h2><p>adorable cat magnets for your locker, but wait what's that?! A piggy!!</p></div>
+
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span><img class="art" src="iloveimg-converted/IMG_6593.jpg"><h2>fav food scrapbook!</h2><p>a cool scrapbook of all my favorite foods this week!</p></div>
+    <div class="item"><span class="sparkle sparkle-1">✨</span>
+    <span class="sparkle sparkle-2">✨</span>
+    <span class="sparkle sparkle-3">✨</span>
+    <span class="sparkle sparkle-4">✨</span>
+    <span class="sparkle sparkle-5">✨</span>
+    <span class="sparkle sparkle-6">✨</span>
+    <span class="sparkle sparkle-7">✨</span>
+    <span class="sparkle sparkle-8">✨</span>img class="art" src="iloveimg-converted/IMG_6859.jpg"><h2>flower diamond art</h2><p>a giant cloth covered in beautiful spakling rhinestones!</p></div>
+</div>
+
+</body>
+</html>
+
+
  
-}
-.item{ position:relative;}
-.art:hover{
-  animation:wiggle 1s ease-in-out infinite alternate
-}
-nav{
-  background:$menu-color;
-  ul{
-    list-style:none;
-    display:flex;
-    justify-content:center;
-    li{
-    margin-left: 20px;  
-    font-size:35px !important;
-    a{
-      text-decoration: none;
-      color:#f797e7;
-    }
-    };
-  }
-}
-
-.item{
-  float:left;
-  width:300px;
-  margin:0 20px 20px 0;
-  border:2px solid #f9a8dc;
-  border-radius: 10px;
-  text-align:center;
-  
-}
-.sparkle{
-  position:absolute;
-  opacity:0;
-  z-index:5;
-}
-.sparkle-1{
-  top:2px;
-  left:5px;
-}
-.item:hover .sparkle{
-opacity:1;
-animation:shake 0.8s ease-in-out infinite alternate;
-}
-@keyframes wiggle{
-  from{transform:translateY(8px)translateX(8px)scale(0.7)rotate(-20deg)}
-  to{transform:translateY(-8px)translateX(-8px)scale(1.2)rotate(20deg)}
-}
-@keyframes shake{
-  from{transform:translateY(2px)translateX(2px)scale(0.7)rotate(-20deg)}
-  to{transform:translateY(-2px)translateX(-2px)scale(1.2)rotate(20deg)}
-}
-
