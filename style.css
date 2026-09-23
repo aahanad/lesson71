@@ -4,4 +4,115 @@ body {
   font-style: normal;
   background: #a6f5d5;
   color: #f797e7;
+}
+
+.art {
+  height: 250px;
+  width: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 7px;
+}
+
+.item {
+  position: relative;
+}
+
+.art:hover {
+  animation: wiggle 1s ease-in-out infinite alternate;
+}
+
+nav {
+  background: #c0f1ff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-left: 20px;
+  font-size: 35px !important;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f797e7;
+}
+
+.item {
+  float: left;
+  width: 300px;
+  margin: 0 20px 20px 0;
+  border: 2px solid #f9a8dc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sparkle {
+  position: absolute;
+  opacity: 0;
+  z-index: 5;
+}
+
+.sparkle-1 {
+  top: 3px;
+  left: 7px;
+}
+
+.sparkle-2 {
+  top: 100px;
+  right: 2px;
+}
+
+.sparkle-3 {
+  top: 7px;
+  left: 221px;
+}
+
+.sparkle-4 {
+  top: 150px;
+  left: 2px;
+}
+
+.sparkle-5 {
+  top: 24px;
+  left: 250px;
+}
+
+.sparkle-6 {
+  bottom: 75px;
+  left: 200px;
+}
+
+.sparkle-7 {
+  top: 212px;
+  right: 228px;
+}
+
+.sparkle-8 {
+  top: 250px;
+  left: 275px;
+}
+
+.item:hover .sparkle {
+  animation: shake 1s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  from {
+    transform: translateY(8px) translateX(8px) scale(0.7) rotate(-20deg);
+  }
+  to {
+    transform: translateY(-8px) translateX(-8px) scale(1.2) rotate(20deg);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.2;
+  }
 }/*# sourceMappingURL=style.css.map */
